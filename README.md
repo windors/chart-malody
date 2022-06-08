@@ -16,7 +16,7 @@
 
 整体分为 `文件系统` 和 `Malody商城` ，`Malody商城` 有由 `Malody-API ` 和 `Malody-Web` 组成。
 
-![image-20220607161337228](D:\Document\Java\mygit\chart-malody\imgs\image-20220607161337228.png)
+![image-20220607161337228](https://github.com/windors/chart-malody/blob/master/imgs/image-20220607161337228.png)
 
 `File-System` ：负责文件存储，通过向外提供获取上传Key（id），并向指定Key（id）对指定文件进行某些操作。
 
