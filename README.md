@@ -1,6 +1,6 @@
 # Chart-Malody
 
-我的毕设，80分，开源 Malody V 私人谱面服务器，实现了 [Malody Store API]([Mugzone / Malody_Store_API · GitLab](https://gitlab.com/mugzone_team/malody_store_api))（202112）中绝大部分内容，并提供了网页端供数据维护。
+我的毕设，80分，开源 Malody V 私人谱面服务器，实现了 [Malody Store API]([Mugzone / Malody_Store_API · GitLab](https://gitlab.com/mugzone_team/malody_store_api))（202112）中绝大部分内容，并提供了网页端供数据维护。项目会通过重构的方式一点点的上传到这里。
 
 ---
 
