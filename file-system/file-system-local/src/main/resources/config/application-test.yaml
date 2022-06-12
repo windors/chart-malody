@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    druid:
+      driver-class-name: com.p6spy.engine.spy.P6SpyDriver
+      url: jdbc:p6spy:mysql://rm-2ze0087cs1qp8frt99o.mysql.rds.aliyuncs.com/file
+      username: wind_yuan
+      password: Ayuan20010629
+      validation-query: SELECT 1
+
+
+file:
+  file-dir: /usr/local/malody/data

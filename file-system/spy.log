@@ -1,0 +1,43 @@
+1654999716644|9|statement|connection 0|url jdbc:p6spy:mysql://localhost:3306/filesystem|SELECT 1|SELECT 1
+1654999716697|30|statement|connection 0|url jdbc:p6spy:mysql://localhost:3306/filesystem|SELECT id,local,md5,original_name,state FROM t_file WHERE id=? |SELECT id,local,md5,original_name,state FROM t_file WHERE id=NULL 
+1654999830821|19|statement|connection 0|url jdbc:p6spy:mysql://localhost:3306/filesystem|SELECT 1|SELECT 1
+1654999830873|25|statement|connection 0|url jdbc:p6spy:mysql://localhost:3306/filesystem|SELECT id,local,md5,original_name,state FROM t_file WHERE id=? |SELECT id,local,md5,original_name,state FROM t_file WHERE id=NULL 
+1654999831662|2|statement|connection 0|url jdbc:p6spy:mysql://localhost:3306/filesystem|SELECT id,local,md5,original_name,state FROM t_file WHERE id=? |SELECT id,local,md5,original_name,state FROM t_file WHERE id=NULL 
+1654999843870|0|statement|connection 0|url jdbc:p6spy:mysql://localhost:3306/filesystem|SELECT id,local,md5,original_name,state FROM t_file WHERE id=? |SELECT id,local,md5,original_name,state FROM t_file WHERE id=NULL 
+1654999844391|1|statement|connection 0|url jdbc:p6spy:mysql://localhost:3306/filesystem|SELECT id,local,md5,original_name,state FROM t_file WHERE id=? |SELECT id,local,md5,original_name,state FROM t_file WHERE id=NULL 
+1654999868451|11|statement|connection 0|url jdbc:p6spy:mysql://localhost:3306/filesystem|SELECT 1|SELECT 1
+1654999868486|19|statement|connection 0|url jdbc:p6spy:mysql://localhost:3306/filesystem|SELECT id,local,md5,original_name,state FROM t_file WHERE id=? |SELECT id,local,md5,original_name,state FROM t_file WHERE id=NULL 
+1654999869102|4|statement|connection 0|url jdbc:p6spy:mysql://localhost:3306/filesystem|SELECT id,local,md5,original_name,state FROM t_file WHERE id=? |SELECT id,local,md5,original_name,state FROM t_file WHERE id=NULL 
+1654999874538|0|statement|connection 0|url jdbc:p6spy:mysql://localhost:3306/filesystem|SELECT id,local,md5,original_name,state FROM t_file WHERE id=? |SELECT id,local,md5,original_name,state FROM t_file WHERE id=NULL 
+1655000057345|8|statement|connection 0|url jdbc:p6spy:mysql://localhost:3306/filesystem|SELECT 1|SELECT 1
+1655000057401|30|statement|connection 0|url jdbc:p6spy:mysql://localhost:3306/filesystem|SELECT id,local,md5,original_name,state FROM t_file WHERE id=? |SELECT id,local,md5,original_name,state FROM t_file WHERE id=NULL 
+1655000061147|1|statement|connection 0|url jdbc:p6spy:mysql://localhost:3306/filesystem|SELECT id,local,md5,original_name,state FROM t_file WHERE id=? |SELECT id,local,md5,original_name,state FROM t_file WHERE id=NULL 
+1655000061558|1|statement|connection 0|url jdbc:p6spy:mysql://localhost:3306/filesystem|SELECT id,local,md5,original_name,state FROM t_file WHERE id=? |SELECT id,local,md5,original_name,state FROM t_file WHERE id=NULL 
+1655000072062|2|statement|connection 0|url jdbc:p6spy:mysql://localhost:3306/filesystem|SELECT id,local,md5,original_name,state FROM t_file WHERE id=? |SELECT id,local,md5,original_name,state FROM t_file WHERE id=NULL 
+1655000072373|1|statement|connection 0|url jdbc:p6spy:mysql://localhost:3306/filesystem|SELECT id,local,md5,original_name,state FROM t_file WHERE id=? |SELECT id,local,md5,original_name,state FROM t_file WHERE id=NULL 
+1655000094504|7|statement|connection 0|url jdbc:p6spy:mysql://localhost:3306/filesystem|SELECT 1|SELECT 1
+1655000094529|12|statement|connection 0|url jdbc:p6spy:mysql://localhost:3306/filesystem|SELECT id,local,md5,original_name,state FROM t_file WHERE id=? |SELECT id,local,md5,original_name,state FROM t_file WHERE id=NULL 
+1655000094805|1|statement|connection 0|url jdbc:p6spy:mysql://localhost:3306/filesystem|SELECT id,local,md5,original_name,state FROM t_file WHERE id=? |SELECT id,local,md5,original_name,state FROM t_file WHERE id=NULL 
+1655000154447|3|statement|connection 0|url jdbc:p6spy:mysql://localhost:3306/filesystem|SELECT id,local,md5,original_name,state FROM t_file WHERE id=? |SELECT id,local,md5,original_name,state FROM t_file WHERE id=NULL 
+1655000233511|27|statement|connection 0|url jdbc:p6spy:mysql://localhost:3306/filesystem|SELECT 1|SELECT 1
+1655000233593|49|statement|connection 0|url jdbc:p6spy:mysql://localhost:3306/filesystem|SELECT id,local,md5,original_name,state FROM t_file WHERE id=? |SELECT id,local,md5,original_name,state FROM t_file WHERE id=NULL 
+1655000364692|3|statement|connection 0|url jdbc:p6spy:mysql://localhost:3306/filesystem|SELECT 1|SELECT 1
+1655000364698|4|statement|connection 0|url jdbc:p6spy:mysql://localhost:3306/filesystem|SELECT id,local,md5,original_name,state FROM t_file WHERE id=? |SELECT id,local,md5,original_name,state FROM t_file WHERE id=NULL 
+1655000435193|11|statement|connection 0|url jdbc:p6spy:mysql://localhost:3306/filesystem|SELECT 1|SELECT 1
+1655000435229|18|statement|connection 0|url jdbc:p6spy:mysql://localhost:3306/filesystem|SELECT id,local,md5,original_name,state FROM t_file WHERE id=? |SELECT id,local,md5,original_name,state FROM t_file WHERE id=NULL 
+1655000557839|0|statement|connection 0|url jdbc:p6spy:mysql://localhost:3306/filesystem|SELECT 1|SELECT 1
+1655000557845|4|statement|connection 0|url jdbc:p6spy:mysql://localhost:3306/filesystem|INSERT INTO t_file  ( original_name )  VALUES  ( ? )|INSERT INTO t_file  ( original_name )  VALUES  ( '' )
+1655000698294|10|statement|connection 0|url jdbc:p6spy:mysql://localhost:3306/filesystem|SELECT 1|SELECT 1
+1655000698437|127|statement|connection 0|url jdbc:p6spy:mysql://localhost:3306/filesystem|INSERT INTO file_map  ( original_name )  VALUES  ( ? )|INSERT INTO file_map  ( original_name )  VALUES  ( '' )
+1655000704284|40|statement|connection 0|url jdbc:p6spy:mysql://localhost:3306/filesystem|INSERT INTO file_map  ( original_name )  VALUES  ( ? )|INSERT INTO file_map  ( original_name )  VALUES  ( '' )
+1655000704804|21|statement|connection 0|url jdbc:p6spy:mysql://localhost:3306/filesystem|INSERT INTO file_map  ( original_name )  VALUES  ( ? )|INSERT INTO file_map  ( original_name )  VALUES  ( '' )
+1655001567338|21|statement|connection 0|url jdbc:p6spy:mysql://localhost:3306/filesystem|SELECT 1|SELECT 1
+1655001567491|126|statement|connection 0|url jdbc:p6spy:mysql://localhost:3306/filesystem|INSERT INTO file_map  ( state )  VALUES  ( ? )|INSERT INTO file_map  ( state )  VALUES  ( NULL )
+1655002160740|25|statement|connection 0|url jdbc:p6spy:mysql://localhost:3306/filesystem|SELECT 1|SELECT 1
+1655002160825|45|statement|connection 0|url jdbc:p6spy:mysql://localhost:3306/filesystem|INSERT INTO file_map  ( state, update_time, update_by, create_time, create_by, is_deleted )  VALUES  ( ?, ?, ?, ?, ?, ? )|INSERT INTO file_map  ( state, update_time, update_by, create_time, create_by, is_deleted )  VALUES  ( NULL, '2022-06-12T10:49:20.402', '???', '2022-06-12T10:49:20.402', '???', false )
+1655002225909|9|statement|connection 0|url jdbc:p6spy:mysql://localhost:3306/filesystem|SELECT 1|SELECT 1
+1655002225947|18|statement|connection 0|url jdbc:p6spy:mysql://localhost:3306/filesystem|INSERT INTO file_map  ( state, update_time, update_by, create_time, create_by, is_deleted )  VALUES  ( ?, ?, ?, ?, ?, ? )|INSERT INTO file_map  ( state, update_time, update_by, create_time, create_by, is_deleted )  VALUES  ( 'WATING', '2022-06-12T10:50:25.743', '???', '2022-06-12T10:50:25.743', '???', false )
+1655002285977|10|statement|connection 0|url jdbc:p6spy:mysql://localhost:3306/filesystem|SELECT 1|SELECT 1
+1655002286012|13|statement|connection 0|url jdbc:p6spy:mysql://localhost:3306/filesystem|INSERT INTO file_map  ( state, update_time, update_by, create_time, create_by, is_deleted )  VALUES  ( ?, ?, ?, ?, ?, ? )|INSERT INTO file_map  ( state, update_time, update_by, create_time, create_by, is_deleted )  VALUES  ( 'WATING', '2022-06-12T10:51:25.809', '???', '2022-06-12T10:51:25.809', '???', false )
+1655002412179|11|statement|connection 0|url jdbc:p6spy:mysql://localhost:3306/filesystem|SELECT 1|SELECT 1
+1655002412299|98|statement|connection 0|url jdbc:p6spy:mysql://localhost:3306/filesystem|INSERT INTO file_map  ( state, update_time, update_by, create_time, create_by, is_deleted )  VALUES  ( ?, ?, ?, ?, ?, ? )|INSERT INTO file_map  ( state, update_time, update_by, create_time, create_by, is_deleted )  VALUES  ( 0, '2022-06-12T10:53:31.982', '???', '2022-06-12T10:53:31.982', '???', false )
