@@ -8,6 +8,7 @@ logs
 ### My Temp documents
 /docs/
 rebel.xml
+*.log
 
 ### STS ###
 .apt_generated
