@@ -8,13 +8,13 @@ file-system-base/src/main/
 │    ├─── handler			放了框架的一些东西
 │    ├─── mapper			底层数据传输，访问数据库
 │    └─── service			业务层
-├─── resources
-│    ├─── config
-│    │    ├─── appliction-dev.yaml	dev环境下的配置文件
-│    │    ├─── appliction-test.yaml	dev环境下的配置文件
-│    │    ├─── 
-│    │    └─── 
-│    └─── application.yaml	* 配置文件
+└─── resources
+     ├─── config
+     │    ├─── appliction-dev.yaml	dev环境下的配置文件
+     │    ├─── appliction-test.yaml	dev环境下的配置文件
+     │    ├─── 
+     │    └─── 
+     └─── application.yaml	* 配置文件
 ```
 
 
