@@ -13,6 +13,9 @@
         <module>malody-web</module>
         <module>malody-service</module>
         <module>malody-entity</module>
+        <module>malody-api-base</module>
+        <module>malody-api-202108</module>
+        <module>malody-api</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -95,6 +98,16 @@
             <dependency>
                 <groupId>cn.windors</groupId>
                 <artifactId>malody-entity</artifactId>
+                <version>0.0.1-SNAPSHOT</version>
+            </dependency>
+            <dependency>
+                <groupId>cn.windors</groupId>
+                <artifactId>malody-api-202108</artifactId>
+                <version>0.0.1-SNAPSHOT</version>
+            </dependency>
+            <dependency>
+                <groupId>cn.windors</groupId>
+                <artifactId>malody-api-base</artifactId>
                 <version>0.0.1-SNAPSHOT</version>
             </dependency>
         </dependencies>

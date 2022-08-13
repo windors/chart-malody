@@ -1,0 +1,28 @@
+spring:
+  config:
+    location: classpath:config/
+  profiles:
+    active: dev
+  mvc:
+    static-path-pattern: /static/**
+    hiddenmethod:
+      filter:
+        enabled: true
+
+logging:
+  config: classpath:logback/logback-${spring.profiles.active}.xml
+
+malody:
+  min_version: 202103
+  now_version: 202206
+  page_size: 10
+  file-system-address: 'http://localhost:9870'
+  file-download-address: ${malody.file-system-address}/
+  file-upload-address: ${malody.file-system-address}/upload
+  file-get-uri-address: ${malody.file-system-address}/ask
+  file-check-address: ${malody.file-system-address}/check
+  rsa-key: sgQb7aIukw8OqyqveicRQe75C11EA0QLpMGXtS0QCbVaid1zICJeyIhiYBmCm05ygsFkfoh+qahey/8NtU51NvJByBGe3CpgSTiaH9uhAdsLI4LttVqhUYQDJpI0NbRZ4FpTMAd9rcPwV7p4N3K8oHaKaFLbffyd1i9Pl001RXk=
+  can-resolve-list:
+    - .mc
+server:
+  port: 8080

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.windors.malody.mapper.EventMapper">
+    <select id="selectActivityChartDto" resultType="cn.windors.malody.dto.ActivityChartDto">
+        SELECT
+        c.sid,
+        c.id cid,
+        uid,
+        creator,
+        title,
+        artist,
+        version,
+        `level`,
+        length,
+        examine_state,
+        cover_uri,
+        `mode`
+        FROM
+        (SELECT id FROM core_event) e
+        LEFT JOIN (SELECT eid, cid, weight FROM core_chart__event) ec ON e.id = ec.eid
+        LEFT JOIN (SELECT id, sid, uid, creator, version, `level`, length, examine_state, `mode` FROM core_chart WHERE is_deleted = 0 ) c ON ec.cid = c.id
+        LEFT JOIN (SELECT id, <if test="org == 0">origin_title</if> title, artist, cover_uri, update_time time FROM core_song WHERE is_deleted = 0 ) s ON c.sid = s.id
+        WHERE e.id = #{eid}
+        ORDER BY weight DESC, cid DESC
+    </select>
+</mapper>

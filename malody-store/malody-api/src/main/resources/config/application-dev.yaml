@@ -1,0 +1,33 @@
+spring:
+  datasource:
+    druid:
+      driver-class-name: com.p6spy.engine.spy.P6SpyDriver
+      url: jdbc:p6spy:mysql://localhost:3306/chart_malody
+      username: root
+      password: root
+      validation-query: SELECT 1
+mybatis-plus:
+  configuration:
+    # 懒加载(需要哪个就加载哪个，设为true一次懒加载则加载所有懒加载)
+    aggressive-lazy-loading: true
+    lazy-loading-enabled: true
+    auto-mapping-unknown-column-behavior: warning
+    # 单机时才开启一级缓存，否则会导致数据不同步
+    local-cache-scope: session
+    # 二级缓存，暂时还没看，开启则实体类需要实现序列化接口
+    cache-enabled: false
+
+  global-config:
+    db-config:
+      id-type: auto
+      table-prefix: web_
+      table-underline: true
+      logic-delete-field: is_deleted
+      logic-delete-value: 1
+      logic-not-delete-value: 0
+      insert-strategy: not_null
+      update-strategy: not_null
+  mapper-locations: classpath:mapper/**/*.xml
+  type-aliases-package: pers.windyuan.malodystore.entity
+  executor-type: reuse
+  type-enums-package: cn.windors.malody.type

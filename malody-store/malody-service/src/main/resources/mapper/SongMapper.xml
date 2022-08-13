@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.windors.malody.mapper.SongMapper">
+    <select id="querySongFromSongAndChart" resultType="cn.windors.malody.entity.core.Song">
+        SELECT DISTINCT s.id,
+                        s.cover_uri,
+                        s.length,
+                        s.bpm,
+                        s.title,
+                        s.artist,
+                        s.mode,
+                        s.origin_title,
+                        s.update_time
+        FROM core_song s
+                 JOIN (SELECT id, sid, examine_state, level, mode FROM core_chart WHERE is_deleted = 0) c ON s.id = c.sid
+            ${ew.customSqlSegment}
+    </select>
+</mapper>

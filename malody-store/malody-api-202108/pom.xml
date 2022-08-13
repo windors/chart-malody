@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>malody-service</artifactId>
+    <artifactId>malody-api-202108</artifactId>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
@@ -19,19 +19,8 @@
     <dependencies>
         <dependency>
             <groupId>cn.windors</groupId>
-            <artifactId>malody-entity</artifactId>
+            <artifactId>malody-api-base</artifactId>
         </dependency>
-
-        <!--restTemplate-->
-        <dependency>
-            <groupId>org.apache.httpcomponents</groupId>
-            <artifactId>httpclient</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
-
     </dependencies>
 
 </project>
