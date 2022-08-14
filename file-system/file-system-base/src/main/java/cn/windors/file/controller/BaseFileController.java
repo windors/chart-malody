@@ -77,5 +77,5 @@ public abstract class BaseFileController {
     @GetMapping("/check")
     @ResponseBody
     @ApiOperation(value = "检查文件是否有误")
-    public abstract boolean check(@RequestParam Long id, String md5);
+    public abstract boolean check(@RequestParam Long id, String md5, Map<String, String> map);
 }

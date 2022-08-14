@@ -14,6 +14,10 @@ import javax.servlet.http.HttpServletResponse;
 public class ApiVersionInterceptor implements HandlerInterceptor {
     @Override
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
-        return true;
+        String api = request.getParameter("api");
+        String path = request.getContextPath();
+        log.info(path);
+        request.getRequestDispatcher(path).forward(request, response);
+        return false;
     }
 }

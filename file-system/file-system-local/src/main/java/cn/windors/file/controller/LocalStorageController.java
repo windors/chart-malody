@@ -97,7 +97,9 @@ public class LocalStorageController extends BaseFileController {
     }
 
     @Override
-    public boolean check(Long id, String md5) {
-        return false;
+    public boolean check(Long id, String md5, Map<String, String> map) {
+        md5 = md5.trim();
+        FileMap fileMap = fileMapService.getById(id);
+        return fileMap.getMd5().equals(md5);
     }
 }
